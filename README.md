@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:87CEEB,100:87CEEB&height=180&section=header&text=PRINCE%20MDXI%20WHATSAPP%20BOT&fontSize=38&fontColor=ffffff&fontFamily=Roboto&animation=twinkling" width="100%"/>
+<!-- <img src="https://capsule-render.vercel.app/api?type=waving&color=0:87CEEB,100:87CEEB&height=180&section=header&text=PRINCE%20MDXI%20WHATSAPP%20BOT&fontSize=38&fontColor=ffffff&fontFamily=Roboto&animation=twinkling" width="100%"/> -->
 
 
 
@@ -19,12 +19,6 @@
 DONT FORGET TO FORK 🍴 & STAR 🌟 REPO😇
 ```
 ---
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=1200&height=100&lines=THANKS%20FOR%20CHOOSING%20ALTECH V1;MULTI%20DEVICE%20WHATSAPP%20BOT;CREATED%20BY%20PRINCE%20TECH" alt="Typing SVG" />
-</a>
-</p>
-  
---- 
 
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
