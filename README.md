@@ -12,7 +12,7 @@
 <p align='center'>
 </p>
 
-> **CURRENT BOT VERSION ➜ `3.0.0 ⚡`**
+> **CURRENT BOT VERSION ➜ `1.0.0 ⚡`**
 ---
 
 ```
@@ -20,13 +20,12 @@ DONT FORGET TO FORK 🍴 & STAR 🌟 REPO😇
 ```
 ---
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=1200&height=100&lines=THANKS%20FOR%20CHOOSING%20PRINCE-MDXI;MULTI%20DEVICE%20WHATSAPP%20BOT;CREATED%20BY%20PRINCE%20TECH" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=1200&height=100&lines=THANKS%20FOR%20CHOOSING%20ALTECH V1;MULTI%20DEVICE%20WHATSAPP%20BOT;CREATED%20BY%20PRINCE%20TECH" alt="Typing SVG" />
 </a>
 </p>
   
 --- 
 
-<a><img src='https://files.catbox.moe/upmwpw.jpg'/></a>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
