@@ -1,0 +1,123 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 360px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.toggle-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    background-color: #e4e6eb;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.toggle-btn {
+    flex: 1;
+    padding: 0.5rem;
+    border: none;
+    background-color: transparent;
+    color: #65676b;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.toggle-btn.active {
+    background-color: white;
+    color: #1877f2;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+#qr-container {
+    margin: 1.5rem 0;
+    min-height: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#qr-container img {
+    width: 256px;
+    height: 256px;
+    border-radius: 4px;
+}
+
+#phone-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+#phone-number {
+    padding: 0.8rem;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+#pairing-code-container {
+    margin: 1.5rem 0;
+}
+
+#pairing-code {
+    font-size: 2rem;
+    color: #1877f2;
+    letter-spacing: 4px;
+    background-color: #f0f2f5;
+    padding: 1rem;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+#qr-status-message, #phone-status-message {
+    color: #65676b;
+    min-height: 20px;
+}
+
+#new-qr-btn, #request-code-btn {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#new-qr-btn:hover, #request-code-btn:hover {
+    background-color: #166fe5;
+}
+
+#new-qr-btn:disabled, #request-code-btn:disabled {
+    background-color: #a0a0a0;
+    cursor: not-allowed;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pair with Phone Number</title>
+    <style>
+        body { font-family: sans-serif; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; margin: 0; background-color: #f0f2f5; }
+        .container { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); text-align: center; }
+        input { padding: 10px; margin-right: 8px; border: 1px solid #ccc; border-radius: 4px; }
+        button { background-color: #1877f2; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-size: 1rem; }
+        #result { margin-top: 1rem; font-size: 1.2rem; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Pair with Phone Number</h1>
+        <div>
+            <input type="text" id="phone-number" placeholder="Enter number with country code">
+            <button id="get-code-btn">Get Code</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script>
+        document.getElementById('get-code-btn').addEventListener('click', async () => {
+            const number = document.getElementById('phone-number').value;
+            const resultDiv = document.getElementById('result');
+            if (!number) {
+                resultDiv.textContent = 'Please enter a phone number.';
+                return;
+            }
+            resultDiv.textContent = 'Requesting code...';
+            try {
+                const response = await fetch(`/code?number=${number}`);
+                const data = await response.json();
+                if (data.code) {
+                    resultDiv.textContent = `Your code is: ${data.code}`;
+                } else {
+                    resultDiv.textContent = data.error || 'An unknown error occurred.';
+                }
+            } catch (err) {
+                resultDiv.textContent = 'Failed to fetch pairing code.';
+            }
+        });
+    </script>
+</body>
+</html>
