@@ -26,7 +26,7 @@ DONT FORGET TO FORK 🍴 & STAR 🌟 REPO😇
 
 `FORK 🍴 AND STAR ⭐ IF YOU LIKE THIS BOT`
 
-  <a href=""><img title="ALTECH V1" src=""></a>
+  <!-- <a href=""><img title="ALTECH V1" src=""></a> -->
   
 ### 2. 𐃁GET SESSION ID𐃁 
 
